@@ -9,6 +9,7 @@
   flushInterval: 10000,
 
   backends: ['./backends/graphite'],
+  servers: ['./servers/tcp'],
   graphite: {
     legacyNamespace: false
   }
